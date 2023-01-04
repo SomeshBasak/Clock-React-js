@@ -18,7 +18,7 @@ class Clock extends Component {
 
   render() {
     const {date} = this.state
-    console.log('render Called', date)
+
     return (
       <div className="clock-container">
         <h1 className="heading">Clock</h1>
